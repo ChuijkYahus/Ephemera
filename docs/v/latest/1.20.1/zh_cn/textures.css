@@ -1,7 +1,59 @@
-  .texture-hexcasting-textures-item-colorizer-dye_black-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_black-png 2.9s linear infinite;
+  .texture-hexcasting-textures-item-colorizer-ancient-png {
+    animation: texture-hexcasting-textures-item-colorizer-ancient-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_black.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/ancient.png");
+  }
+  @keyframes texture-hexcasting-textures-item-colorizer-ancient-png {
+      0%, 17.23% { background-position-y: 0% }
+      17.24%, 20.68% { background-position-y: -100% }
+      20.69%, 24.13% { background-position-y: -200% }
+      24.14%, 27.58% { background-position-y: -300% }
+      27.59%, 31.02% { background-position-y: -400% }
+      31.03%, 34.47% { background-position-y: -500% }
+      34.48%, 37.92% { background-position-y: -600% }
+      37.93%, 41.37% { background-position-y: -700% }
+      41.38%, 43.09% { background-position-y: -800% }
+      43.1%, 44.82% { background-position-y: -900% }
+      44.83%, 46.54% { background-position-y: -1000% }
+      46.55%, 48.27% { background-position-y: -1100% }
+      48.28%, 49.99% { background-position-y: -1200% }
+      50%, 67.23% { background-position-y: -1300% }
+      67.24%, 68.96% { background-position-y: -1400% }
+      68.97%, 75.85% { background-position-y: -1500% }
+      75.86%, 77.58% { background-position-y: -1600% }
+      77.59%, 79.3% { background-position-y: -1700% }
+      79.31%, 81.02% { background-position-y: -1800% }
+      81.03%, 82.75% { background-position-y: -1900% }
+      82.76%, 84.47% { background-position-y: -2000% }
+      84.48%, 86.2% { background-position-y: -2100% }
+      86.21%, 87.92% { background-position-y: -2200% }
+      87.93%, 89.65% { background-position-y: -2300% }
+      89.66%, 91.37% { background-position-y: -2400% }
+      91.38%, 93.09% { background-position-y: -2500% }
+      93.1%, 94.82% { background-position-y: -2600% }
+      94.83%, 96.54% { background-position-y: -2700% }
+      96.55%, 98.27% { background-position-y: -2800% }
+      98.28%, 100% { background-position-y: -2900% }
+  }
+  .texture-hexcasting-textures-item-colorizer-default-png {
+    animation: texture-hexcasting-textures-item-colorizer-default-png 1.65s steps(1, start) infinite;
+    background-size: 100%;
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/default.png");
+  }
+  @keyframes texture-hexcasting-textures-item-colorizer-default-png {
+      0%, 60.6% { background-position-y: 0% }
+      60.61%, 72.72% { background-position-y: -100% }
+      72.73%, 78.78% { background-position-y: -200% }
+      78.79%, 84.84% { background-position-y: -300% }
+      84.85%, 90.9% { background-position-y: -400% }
+      90.91%, 93.93% { background-position-y: -500% }
+      93.94%, 96.96% { background-position-y: -600% }
+      96.97%, 100% { background-position-y: -700% }
+  }
+  .texture-hexcasting-textures-item-colorizer-dye_black-png {
+    animation: texture-hexcasting-textures-item-colorizer-dye_black-png 2.9s steps(1, start) infinite;
+    background-size: 100%;
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_black.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_black-png {
       0%, 17.23% { background-position-y: 0% }
@@ -36,9 +88,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_blue-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_blue-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_blue-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_blue.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_blue.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_blue-png {
       0%, 17.23% { background-position-y: 0% }
@@ -73,9 +125,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_brown-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_brown-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_brown-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_brown.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_brown.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_brown-png {
       0%, 17.23% { background-position-y: 0% }
@@ -110,9 +162,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_cyan-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_cyan-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_cyan-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_cyan.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_cyan.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_cyan-png {
       0%, 17.23% { background-position-y: 0% }
@@ -147,9 +199,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_gray-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_gray-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_gray-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_gray.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_gray.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_gray-png {
       0%, 17.23% { background-position-y: 0% }
@@ -184,9 +236,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_green-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_green-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_green-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_green.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_green.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_green-png {
       0%, 17.23% { background-position-y: 0% }
@@ -221,9 +273,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_light_blue-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_light_blue-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_light_blue-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_light_blue.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_light_blue.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_light_blue-png {
       0%, 17.23% { background-position-y: 0% }
@@ -258,9 +310,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_light_gray-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_light_gray-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_light_gray-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_light_gray.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_light_gray.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_light_gray-png {
       0%, 17.23% { background-position-y: 0% }
@@ -295,9 +347,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_lime-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_lime-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_lime-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_lime.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_lime.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_lime-png {
       0%, 17.23% { background-position-y: 0% }
@@ -332,9 +384,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_magenta-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_magenta-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_magenta-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_magenta.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_magenta.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_magenta-png {
       0%, 17.23% { background-position-y: 0% }
@@ -369,9 +421,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_orange-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_orange-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_orange-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_orange.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_orange.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_orange-png {
       0%, 17.23% { background-position-y: 0% }
@@ -406,9 +458,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_pink-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_pink-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_pink-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_pink.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_pink.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_pink-png {
       0%, 17.23% { background-position-y: 0% }
@@ -443,9 +495,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_purple-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_purple-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_purple-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_purple.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_purple.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_purple-png {
       0%, 17.23% { background-position-y: 0% }
@@ -480,9 +532,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_red-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_red-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_red-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_red.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_red.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_red-png {
       0%, 17.23% { background-position-y: 0% }
@@ -517,9 +569,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_white-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_white-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_white-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_white.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_white.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_white-png {
       0%, 17.23% { background-position-y: 0% }
@@ -554,9 +606,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-dye_yellow-png {
-    animation: texture-hexcasting-textures-item-colorizer-dye_yellow-png 2.9s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-dye_yellow-png 2.9s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_yellow.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/dye_yellow.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-dye_yellow-png {
       0%, 17.23% { background-position-y: 0% }
@@ -591,9 +643,9 @@
       98.28%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_agender-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_agender-png 2.95s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_agender-png 2.95s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_agender.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_agender.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_agender-png {
       0%, 16.94% { background-position-y: 0% }
@@ -630,9 +682,9 @@
       98.31%, 100% { background-position-y: -3100% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_aroace-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_aroace-png 2.6s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_aroace-png 2.6s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_aroace.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_aroace.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_aroace-png {
       0%, 19.22% { background-position-y: 0% }
@@ -668,9 +720,9 @@
       98.08%, 100% { background-position-y: -3000% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_aromantic-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_aromantic-png 2.6s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_aromantic-png 2.6s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_aromantic.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_aromantic.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_aromantic-png {
       0%, 19.22% { background-position-y: 0% }
@@ -706,9 +758,9 @@
       98.08%, 100% { background-position-y: -3000% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_asexual-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_asexual-png 2.95s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_asexual-png 2.95s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_asexual.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_asexual.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_asexual-png {
       0%, 16.94% { background-position-y: 0% }
@@ -745,9 +797,9 @@
       98.31%, 100% { background-position-y: -3100% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_bisexual-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_bisexual-png 3.3s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_bisexual-png 3.3s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_bisexual.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_bisexual.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_bisexual-png {
       0%, 15.14% { background-position-y: 0% }
@@ -788,9 +840,9 @@
       84.85%, 100% { background-position-y: -3500% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_demiboy-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_demiboy-png 3.3s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_demiboy-png 3.3s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_demiboy.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_demiboy.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_demiboy-png {
       0%, 15.14% { background-position-y: 0% }
@@ -831,9 +883,9 @@
       84.85%, 100% { background-position-y: -3500% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_demigirl-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_demigirl-png 3.3s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_demigirl-png 3.3s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_demigirl.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_demigirl.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_demigirl-png {
       0%, 15.14% { background-position-y: 0% }
@@ -874,9 +926,9 @@
       84.85%, 100% { background-position-y: -3500% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_gay-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_gay-png 2.6s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_gay-png 2.6s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_gay.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_gay.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_gay-png {
       0%, 19.22% { background-position-y: 0% }
@@ -912,9 +964,9 @@
       98.08%, 100% { background-position-y: -3000% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_genderfluid-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_genderfluid-png 2.6s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_genderfluid-png 2.6s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_genderfluid.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_genderfluid.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_genderfluid-png {
       0%, 19.22% { background-position-y: 0% }
@@ -950,9 +1002,9 @@
       98.08%, 100% { background-position-y: -3000% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_genderqueer-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_genderqueer-png 3.3s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_genderqueer-png 3.3s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_genderqueer.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_genderqueer.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_genderqueer-png {
       0%, 15.14% { background-position-y: 0% }
@@ -993,9 +1045,9 @@
       84.85%, 100% { background-position-y: -3500% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_intersex-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_intersex-png 2.1s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_intersex-png 2.1s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_intersex.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_intersex.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_intersex-png {
       0%, 23.8% { background-position-y: 0% }
@@ -1030,9 +1082,9 @@
       97.62%, 100% { background-position-y: -2900% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_lesbian-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_lesbian-png 2.6s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_lesbian-png 2.6s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_lesbian.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_lesbian.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_lesbian-png {
       0%, 19.22% { background-position-y: 0% }
@@ -1068,9 +1120,9 @@
       98.08%, 100% { background-position-y: -3000% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_nonbinary-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_nonbinary-png 2.95s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_nonbinary-png 2.95s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_nonbinary.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_nonbinary.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_nonbinary-png {
       0%, 16.94% { background-position-y: 0% }
@@ -1107,9 +1159,9 @@
       98.31%, 100% { background-position-y: -3100% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_pansexual-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_pansexual-png 3.3s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_pansexual-png 3.3s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_pansexual.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_pansexual.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_pansexual-png {
       0%, 15.14% { background-position-y: 0% }
@@ -1150,9 +1202,9 @@
       84.85%, 100% { background-position-y: -3500% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_plural-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_plural-png 2.95s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_plural-png 2.95s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_plural.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_plural.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_plural-png {
       0%, 16.94% { background-position-y: 0% }
@@ -1189,9 +1241,9 @@
       98.31%, 100% { background-position-y: -3100% }
   }
   .texture-hexcasting-textures-item-colorizer-pride_transgender-png {
-    animation: texture-hexcasting-textures-item-colorizer-pride_transgender-png 3.3s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-pride_transgender-png 3.3s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_transgender.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/pride_transgender.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-pride_transgender-png {
       0%, 15.14% { background-position-y: 0% }
@@ -1232,9 +1284,9 @@
       84.85%, 100% { background-position-y: -3500% }
   }
   .texture-hexcasting-textures-item-colorizer-uuid-png {
-    animation: texture-hexcasting-textures-item-colorizer-uuid-png 2.05s linear infinite;
+    animation: texture-hexcasting-textures-item-colorizer-uuid-png 2.05s steps(1, start) infinite;
     background-size: 100%;
-    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/5831d9e2867f2369b8016aed83fbbd401fd7ad3d/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/uuid.png");
+    background-image: url("https://raw.githubusercontent.com/FallingColors/HexMod/eefaf2d411b6360519c9f56fbfe6b0dfba047425/Common/src/main/resources/assets/hexcasting/textures/item/colorizer/uuid.png");
   }
   @keyframes texture-hexcasting-textures-item-colorizer-uuid-png {
       0%, 24.38% { background-position-y: 0% }
